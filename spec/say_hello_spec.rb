@@ -1,8 +1,9 @@
  #!/usr/bin/env ruby -wKU
-def say_hello.rb (name, name="Ruby programmer")
+def say_hello (name, name="Ruby programmer")
   puts "Hello , #{name}!"
 end
-say_hello.rb
+say_hello
+
 require_relative './spec_helper'
 
 describe "say_hello" do
