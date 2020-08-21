@@ -2,7 +2,7 @@
 def say_hello.rb(name = "Ruby programmer")
   puts "Hello , #{name}!"
 end
-say_hello.rb
+
 
 
 require_relative './spec_helper'
