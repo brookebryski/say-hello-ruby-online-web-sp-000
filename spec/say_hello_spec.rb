@@ -1,6 +1,6 @@
  #!/usr/bin/env ruby -wKU
 def say_hello.rb
- (name="Ruby programmer")
+ (name, name="Ruby programmer")
   puts "Hello , #{name}!"
 end
 say_hello.rb
